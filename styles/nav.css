@@ -1,0 +1,22 @@
+.navigation-wrapper{
+    height: 100px;
+    /*  Flexbox container  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 2px;
+    border-bottom:black solid 2px;
+}
+/*Left Column*/
+.navigation-wrapper > .left-column > .banner-image{
+    width: 200px;
+    height: 100%;
+}
+/*Right Column*/
+.navigation-wrapper > .right-column >.links-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
